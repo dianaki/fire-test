@@ -12,6 +12,11 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     color: #232324;
@@ -164,4 +169,39 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #EC418E;
+}
+
+.footer__content {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #909499;
+    padding-top: 20px;
+    padding-bottom: 42px;
+}
+
+.footer__regards {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E7EAEE;
+}
+
+.regards__signature {
+    display: block;
+}
+
+.footer__message {
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+
+.footer__contacts {
+    margin-bottom: 12px;
+}
+
+.contacts__site, .contacts__email {
+    padding-right: 12px;
+    border-right: 1px solid rgba(93, 95, 97, 0.3);
+    margin-right: 12px;
 }
